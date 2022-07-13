@@ -31,6 +31,10 @@ body {
   margin: 0 auto;
 }
 
+.image {
+  box-shadow: 0px 5px 30px 2px rgb(78, 72, 72);
+}
+
 header,
 section {
   margin-bottom: 48px;
@@ -65,6 +69,10 @@ h2 {
   background-color: #099268;
 }
 
+.btn:hover {
+  box-shadow: #000 40px;
+}
+
 .btn--small {
   font-size: 14px;
   padding: 8px 12px;
@@ -76,7 +84,10 @@ h2 {
   padding: 16px 32px;
   font-size: 18px;
 
-  border-radius: 30px;
+  border-radius: 20px;
+}
+
+.feature-icon {
 }
 
 /* ------------------------ */
@@ -115,7 +126,11 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
+.feature-icon {
+  stroke: #087f5b;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 16px;
 }
 
 .features-title {
@@ -154,6 +169,10 @@ img {
 /* CHAIRS */
 .chair-box {
   padding: 24px;
+}
+
+.chair {
+  box-shadow: 0px 20px 40px 0px rgb(44, 44, 49);
 }
 
 h3 {
